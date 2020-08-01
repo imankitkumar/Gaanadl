@@ -8,7 +8,6 @@ foreach ($ts as $key){
     header('Content-Description: File Transfer');
     header('Content-Type: audio/mp3'); 
     header('Content-Transfer-Encoding: Binary');
-    header('Content-Length: ' . filesize($key));
     header('Content-Disposition: attachment; filename="'.$fileName.'.mp3"');
 $handle=fopen($key, 'rb');
 while (!feof($handle))
