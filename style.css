@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#120014;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    font-size: 2rem;
+    color:rgb(168, 168, 168);
+    text-align: center;
+    margin:2rem auto;
+}
+
+header span{
+    font-weight: bold;
+    color:red;
+}
+
+form {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    background: #272727d1;
+    border-radius: 25px;
+    max-width: 900px;
+}
+
+form input {
+    flex: 1;
+    border: none;
+    padding: 17px;
+    outline: none;
+    background: none;
+    font-family: "Poppins";
+    padding-left: 32px;
+    color:white;
+}
+
+form input:focus::placeholder{
+    color: transparent;
+}
+
+form button {
+    padding: 13px 15px;
+    border: none;
+    outline: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(197, 197, 197);
+}
+
+div#results {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 16px;
+    max-width: 900px;
+}
+
+#results .loader {
+    margin-top:10%;
+    color: white;
+    font-size: 20pt;
+}
+
+a.track {
+    width: 126px;
+    height: fit-content;
+    background: #1f1321;
+    display: inline-block;
+    overflow: hidden;
+    margin: 9px;
+    border-radius: 3px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.track img {
+    width: 100%;
+    height:110px;
+    border-radius: 4px;
+}
+
+.track span {
+    width: 100%;
+    display: block;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(175, 175, 175);
+    font-size: 12px;
+    font-family: "Inter";
+    margin-top: 2px;
+}
