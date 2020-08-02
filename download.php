@@ -9,7 +9,7 @@ $ts = $match[0];
 foreach ($ts as $key){
 
     header('Content-Description: File Transfer');
-    header('Content-Type: video/MP2T'); 
+    header('Content-Type: video/mp4'); 
     header('Content-Transfer-Encoding: Binary');
     header('Content-Disposition: attachment; filename="'.$fileName.'.mp3"');
 
