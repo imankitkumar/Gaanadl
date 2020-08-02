@@ -22,23 +22,24 @@ header span{
 }
 
 form {
-    width: 100%;
-    margin: auto;
     display: flex;
+    margin: auto;
+    width: 93%;
     background: #272727d1;
-    border-radius: 25px;
-    max-width: 900px;
+    border-radius: 26px;
+    overflow: hidden;
+    height: 52px;
+    max-width:900px;
 }
 
-form input {
+form input[type="text"] {
     flex: 1;
-    border: none;
-    padding: 17px;
-    outline: none;
     background: none;
+    color: white;
+    outline:none;
+    border: none;
+    padding-left: 18px;
     font-family: "Poppins";
-    padding-left: 32px;
-    color:white;
 }
 
 form input:focus::placeholder{
@@ -46,15 +47,19 @@ form input:focus::placeholder{
 }
 
 form button {
-    padding: 13px 15px;
-    border: none;
-    outline: none;
+    width: 56px;
     background: none;
+    border: none;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(197, 197, 197);
+    height: 100%;
 }
+
+
+
+
 
 div#results {
     width: 100%;
