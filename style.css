@@ -22,7 +22,7 @@ header span{
 }
 
 form {
-    width: 85%;
+    width: 100%;
     margin: auto;
     display: flex;
     background: #272727d1;
