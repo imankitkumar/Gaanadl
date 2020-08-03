@@ -14,7 +14,7 @@ foreach ($ts as $key){
     header('Content-Disposition: attachment; filename="'.$fileName.'.mp3"');
 
 $chunk=fopen($key, 'rb');
-while (!feof($handle))
+while (!feof($chunk))
 {
   echo fread($chunk, 8192);
     flush();
