@@ -13,14 +13,14 @@ foreach ($ts as $key){
     header('Content-Transfer-Encoding: Binary');
     header('Content-Disposition: attachment; filename="'.$fileName.'.mp3"');
 
-$handle=fopen($key, 'rb');
+$chunk=fopen($key, 'rb');
 while (!feof($handle))
 {
-  echo fread($handle, 8192);
+  echo fread($chunk, 8192);
     flush();
 }
 
-   fclose($handle);
+   fclose($chunk);
 
 }
 
