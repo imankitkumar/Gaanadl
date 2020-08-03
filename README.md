@@ -15,4 +15,4 @@
 
 𝘿𝙚𝙢𝙤:
 
-       https://gaanad.herokuapp.com
+ https://gaanad.herokuapp.com
