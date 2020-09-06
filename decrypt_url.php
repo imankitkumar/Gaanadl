@@ -1,6 +1,5 @@
 <?php
 
-
 function decryptUrl($enc_url){
 
 $ciphering = "AES-128-CBC"; 
