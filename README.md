@@ -16,3 +16,5 @@
 # 𝘿𝙚𝙢𝙤 😊
 
  https://gaanamd.herokuapp.com
+
+Downloading MP3 maybe illegal in your country, Use at your own risk.
